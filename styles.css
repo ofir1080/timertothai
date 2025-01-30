@@ -11,8 +11,12 @@ h1 {
     color: #333;
 }
 
+.small-text {
+    font-size: 0.5em; /* Adjust this value to make the words smaller */
+}
+
 #timer {
-    font-size: 3em;
+    font-size: 1em;
     font-weight: bold;
     margin-top: 50px;
     color: #000000;
@@ -37,7 +41,3 @@ h1 {
     font-size: 2em;
     font-weight: bold;
 } */
-
-.small-text {
-    font-size: 0.5em; /* Adjust this value to make the words smaller */
-}
