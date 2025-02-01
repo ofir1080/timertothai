@@ -20,7 +20,7 @@ function updateTimer() {
     let seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
 
     document.getElementById("timer").innerHTML = 
-        `${days}<span class="small-text"> Days </span>&nbsp;&nbsp;${hours}<span class="small-text"> Hours </span>&nbsp;&nbsp;${minutes}<span class="small-text"> Minutes </span>&nbsp;&nbsp;${seconds}<span class="small-text"> Seconds</span>`;
+        `${days}<span class="small-text"> Days </span>&nbsp;&nbsp;${hours}<span class="small-text"> Hours </span>&nbsp;&nbsp;${minutes}<span class="small-text"> Mins </span>&nbsp;&nbsp;${seconds}<span class="small-text"> Secs</span>`;
 }
 
 updateTimer();  // Initial call to avoid 1-second delay
