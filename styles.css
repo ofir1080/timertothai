@@ -1,14 +1,27 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin-top: 50px;
+    margin-top: -100px;
     background: url('bg.webp') no-repeat center center fixed;
     background-size: cover;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
 }
 
 h1 {
-    color: #333;
+    font-size: 1em;
+    font-weight: bold;
+    /* margin-top: 50px; */
+    color: #447ae6;
+    /* background-color: #29b0de; */
+    font-family: 'arial';
+    display: inline-block; /* Makes the background fit the text */
+    /* padding: 10px 20px; Adds space inside the box */
+    border-radius: 10px; /* Optional: Rounds the corners */
 }
 
 .small-text {
@@ -18,9 +31,9 @@ h1 {
 #timer {
     font-size: 1em;
     font-weight: bold;
-    margin-top: 50px;
-    color: #000000;
-    background-color: #29b0de;
+    /* margin-top: 50px; */
+    color: #447ae6;
+    /* background-color: #29b0de; */
     font-family: 'Orbitron', sans-serif;
     display: inline-block; /* Makes the background fit the text */
     padding: 10px 20px; /* Adds space inside the box */
@@ -41,3 +54,11 @@ h1 {
     font-size: 2em;
     font-weight: bold;
 } */
+.text-box {
+    background: rgb(236, 235, 235);
+    /* padding: 20px; */
+    width: 350px;
+    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
+    border-radius: 8px;
+    text-align: center;
+}
