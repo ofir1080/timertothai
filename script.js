@@ -1,6 +1,6 @@
 function updateTimer() {
     const now = new Date();
-    let targetDate = new Date(now.getFullYear(), 1, 22, 3, 40, 0, 0); // Feb 22nd, 3:40 AM
+    let targetDate = new Date(now.getFullYear(), 10, 27, 6, 40, 0, 0); // Feb 22nd, 3:40 AM
 
     // If today is already past Feb 22nd, set the target for next year
     if (now > targetDate) {
